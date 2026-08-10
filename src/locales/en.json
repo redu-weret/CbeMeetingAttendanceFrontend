@@ -1,0 +1,349 @@
+{
+  "app": { "name": "CBE Meeting Attendance", "tagline": "Meeting Attendance" },
+  "common": { "cancel": "Cancel", "close": "Close", "loading": "Loading...", "user": "User" },
+  "language": { "label": "Language" },
+  "nav": {
+    "dashboard": "Dashboard",
+    "takeAttendance": "Take Attendance",
+    "myProfile": "My Profile",
+    "employees": "Employees",
+    "registerEmployee": "Register Employee",
+    "reports": "Reports",
+    "users": "Users",
+    "toggleMenu": "Toggle menu"
+  },
+  "userMenu": {
+    "myProfile": "My Profile",
+    "changePassword": "Change Password",
+    "deleteAccount": "Delete Account",
+    "signOut": "Sign Out"
+  },
+  "password": {
+    "title": "Change Password",
+    "hint": "Update your account password. You'll need to use the new password next time you sign in.",
+    "current": "Current Password",
+    "currentPlaceholder": "Enter your current password",
+    "new": "New Password",
+    "newPlaceholder": "At least 6 characters",
+    "confirm": "Confirm New Password",
+    "confirmPlaceholder": "Repeat your new password",
+    "errors": {
+      "currentRequired": "Current password is required.",
+      "minLength": "New password must be at least 6 characters.",
+      "mismatch": "Passwords do not match."
+    },
+    "success": "Password changed successfully",
+    "failed": "Failed to change password",
+    "failedRetry": "Failed to change password. Please try again."
+  },
+  "deleteAccount": {
+    "title": "Delete Account",
+    "warning": "This action cannot be undone",
+    "description": "Your account and all associated data will be permanently deleted. You will be signed out immediately.",
+    "confirm": "Delete My Account",
+    "success": "Account deleted successfully",
+    "failed": "Failed to delete account"
+  },
+  "login": {
+    "subtitle": "Sign in to your account to continue",
+    "emailLabel": "Email or Username",
+    "emailPlaceholder": "Enter your email or username",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "signIn": "Sign In",
+    "noAccount": "Don't have an account?",
+    "registerHere": "Register here",
+    "welcomeBack": "Welcome back!",
+    "errors": {
+      "emailRequired": "Email or username is required.",
+      "passwordRequired": "Password is required.",
+      "loginFailed": "Login failed. Please try again.",
+      "emailInvalid": "The provided email or username is not valid.",
+      "passwordInvalid": "The provided password is not valid."
+    }
+  },
+  "register": {
+    "title": "Create Account",
+    "subtitle": "Register to access the attendance system",
+    "emailLabel": "Email",
+    "emailPlaceholder": "your@email.com",
+    "usernameLabel": "Username",
+    "usernamePlaceholder": "Choose a username",
+    "employeeIdLabel": "Employee ID",
+    "employeeIdPlaceholder": "e.g. EMP001",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "At least 6 characters",
+    "confirmLabel": "Confirm Password",
+    "confirmPlaceholder": "Repeat your password",
+    "haveAccount": "Already have an account?",
+    "signIn": "Sign in",
+    "success": "Account created successfully!",
+    "failed": "Registration failed. Please check your information.",
+    "errors": {
+      "emailRequired": "Email is required.",
+      "emailInvalid": "Enter a valid email address.",
+      "usernameRequired": "Username is required.",
+      "employeeIdRequired": "Employee ID is required.",
+      "passwordRequired": "Password is required.",
+      "passwordMin": "Password must be at least 6 characters.",
+      "confirmRequired": "Please confirm your password.",
+      "confirmMismatch": "Passwords do not match."
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Overview of today's meeting attendance",
+    "totalEmployees": "Total Employees",
+    "morningAttendance": "Morning Attendance",
+    "afternoonAttendance": "Afternoon Attendance",
+    "recentAttendances": "Recent Attendances",
+    "loadFailed": "Failed to load dashboard data",
+    "table": {
+      "employee": "Employee",
+      "department": "Department",
+      "date": "Date",
+      "session": "Session",
+      "time": "Time"
+    },
+    "empty": {
+      "title": "No attendance records yet",
+      "description": "Attendances will appear here once employees start checking in."
+    },
+    "session": { "morning": "Morning", "afternoon": "Afternoon" }
+  },
+  "employees": {
+    "title": "Employees",
+    "registeredCount_one": "{{count}} employee registered",
+    "registeredCount_other": "{{count}} employees registered",
+    "addEmployee": "Add Employee",
+    "registerEmployee": "Register Employee",
+    "searchPlaceholder": "Search by name, ID, or department...",
+    "table": {
+      "id": "ID",
+      "fullName": "Full Name",
+      "division": "Division",
+      "jobTitle": "Job Title",
+      "department": "Department",
+      "phone": "Phone",
+      "actions": "Actions"
+    },
+    "edit": "Edit",
+    "delete": "Delete",
+    "empty": {
+      "noSearch": "No employees match your search",
+      "tryDifferent": "Try a different search term.",
+      "noEmployees": "No employees registered",
+      "registerFirst": "Register your first employee to get started."
+    },
+    "deleteModal": {
+      "title": "Delete Employee",
+      "confirmBefore": "Are you sure you want to delete",
+      "confirmAfter": "? This action cannot be undone."
+    },
+    "toasts": {
+      "deleted": "Employee deleted successfully",
+      "deleteFailed": "Failed to delete employee",
+      "loadFailed": "Failed to load employees"
+    }
+  },
+  "employeeForm": {
+    "editTitle": "Edit Employee",
+    "registerTitle": "Register Employee",
+    "editSubtitle": "Update employee information",
+    "registerSubtitle": "Add a new employee to the system",
+    "employeeId": "Employee ID",
+    "employeeIdPlaceholder": "e.g. EMP001",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "Full name of the employee",
+    "division": "Division",
+    "divisionPlaceholder": "e.g. Operations",
+    "jobTitle": "Job Title",
+    "jobTitlePlaceholder": "e.g. Officer",
+    "department": "Department",
+    "departmentPlaceholder": "e.g. IT",
+    "phoneNumber": "Phone Number",
+    "phoneNumberPlaceholder": "e.g. +251-XXX-XXXX",
+    "errors": {
+      "employeeIdRequired": "Employee ID is required",
+      "fullNameRequired": "Full name is required",
+      "divisionRequired": "Division is required",
+      "jobTitleRequired": "Job title is required",
+      "departmentRequired": "Department is required",
+      "phoneRequired": "Phone number is required",
+      "phoneInvalid": "Phone number must be 10 or 11 digits"
+    },
+    "updateBtn": "Update Employee",
+    "registerBtn": "Register Employee",
+    "toasts": {
+      "notFound": "Employee not found",
+      "loadFailed": "Failed to load employee",
+      "updated": "Employee updated successfully",
+      "updateFailed": "Failed to update employee",
+      "registered": "Employee registered successfully",
+      "registerFailed": "Failed to register employee"
+    }
+  },
+  "reports": {
+    "title": "Reports & Export",
+    "subtitle": "Export attendance data in your preferred format",
+    "formats": {
+      "csv": "CSV",
+      "csvDesc": "Comma-separated values (.csv)",
+      "excel": "Excel",
+      "excelDesc": "Microsoft Excel (.xlsx)",
+      "pdf": "PDF",
+      "pdfDesc": "Portable Document Format (.pdf)"
+    },
+    "settingsTitle": "Export Settings",
+    "formatLabel": "Export Format",
+    "infoText": "The report includes all attendance records with employee details, meeting dates, sessions, and attendance times.",
+    "download": "Download Report",
+    "toasts": {
+      "downloaded": "Report downloaded successfully",
+      "exportFailed": "Failed to export report"
+    }
+  },
+  "users": {
+    "title": "User Management",
+    "registeredCount_one": "{{count}} registered user",
+    "registeredCount_other": "{{count}} registered users",
+    "assignRole": "Assign Role",
+    "changeRole": "Change Role",
+    "removeRole": "Remove Role",
+    "resetPassword": "Reset Password",
+    "noEmail": "No email",
+    "lockedUntil": "Locked until {{date}}",
+    "empty": {
+      "title": "No users found",
+      "description": "Users will appear here once they register."
+    },
+    "modal": {
+      "assignTitle": "Assign Role",
+      "changeTitle": "Change Role",
+      "removeTitle": "Remove Role",
+      "assignText": "Assign a new role to {{name}}",
+      "changeText": "Change a role for {{name}}",
+      "removeText": "Remove a role from {{name}}"
+    },
+    "roleName": "Role Name",
+    "roleNamePlaceholder": "e.g. Admin, Manager",
+    "newRole": "New Role",
+    "newRolePlaceholder": "e.g. Admin",
+    "assignBtn": "Assign",
+    "changeBtn": "Change",
+    "removeBtn": "Remove",
+    "passwordModal": {
+      "title": "Reset Password",
+      "forUser": "Reset password for",
+      "hint": "The user will need to use this new password to log in."
+    },
+    "newPassword": "New Password",
+    "newPasswordPlaceholder": "Enter new password",
+    "resetBtn": "Reset Password",
+    "deleteModal": {
+      "title": "Delete User",
+      "confirmBefore": "Are you sure you want to delete",
+      "confirmAfter": "? This action cannot be undone."
+    },
+    "deleteUserBtn": "Delete User",
+    "toasts": {
+      "loadFailed": "Failed to load users",
+      "roleUpdated": "Role updated successfully",
+      "roleUpdateFailed": "Failed to update role",
+      "passwordReset": "Password reset successfully",
+      "passwordResetFailed": "Failed to reset password",
+      "userDeleted": "User deleted successfully",
+      "deleteFailed": "Failed to delete user"
+    }
+  },
+  "attendance": {
+    "title": "Take Attendance",
+    "subtitle": "Record your meeting attendance",
+    "noEmployee": {
+      "title": "No Employee Linked",
+      "description": "Your account is not linked to an employee record. Please contact an administrator."
+    },
+    "identityTitle": "Your Identity",
+    "employeeId": "Employee ID",
+    "sessionOptional": "Session (optional)",
+    "sessionAutoDetect": "Auto-detect based on time",
+    "sessionMorning": "Morning Session",
+    "sessionAfternoon": "Afternoon Session",
+    "checking": "Checking your attendance status...",
+    "statusTitle": "Attendance Status",
+    "awaitingCheck": "Awaiting Check",
+    "id": "ID: {{id}}",
+    "division": "Division",
+    "jobTitle": "Job Title",
+    "department": "Department",
+    "phone": "Phone",
+    "alreadyAttended": "Already Attended",
+    "notYetAttended": "Not Yet Attended",
+    "recordAttendance": "Record Attendance",
+    "attendanceCompleted": "Attendance Completed",
+    "checkingStatus": "Checking your status...",
+    "checkingStatusDesc": "Please wait while we check your attendance status.",
+    "toasts": {
+      "recordedFor": "Attendance recorded for {{name}}",
+      "takeFailed": "Failed to take attendance"
+    },
+    "errors": {
+      "noEmployeeFound": "No employee found with ID \"{{id}}\".",
+      "checkFailed": "Failed to check employee. Please try again."
+    }
+  },
+  "profile": {
+    "title": "My Profile",
+    "subtitle": "Manage your account and profile picture",
+    "pictureTitle": "Profile Picture",
+    "pictureIntro": "Your profile picture is shown across the app. You can replace it or remove it below.",
+    "pictureIntroNone": "You don't have a profile picture yet. Upload one so it appears in the sidebar, profile page and user lists.",
+    "chooseNewPicture": "Choose New Picture",
+    "choosePicture": "Choose Picture",
+    "removePicture": "Remove Picture",
+    "unknownType": "unknown type",
+    "allowedTypes": "Allowed: JPG, JPEG, PNG, WEBP · Maximum size: 5 MB",
+    "accountDetails": "Account Details",
+    "username": "Username",
+    "email": "Email",
+    "employee": "Employee",
+    "role": "Role",
+    "toasts": {
+      "updated": "Profile picture updated",
+      "uploaded": "Profile picture uploaded",
+      "uploadFailed": "Failed to upload profile picture.",
+      "removed": "Profile picture removed",
+      "removeFailed": "Failed to remove profile picture."
+    }
+  },
+  "cropper": {
+    "loadError": "Could not load this image for editing. Try a different file.",
+    "sizeHint": "Square crop · saved as {{size}} × {{size}}",
+    "zoom": "Zoom",
+    "zoomOut": "Zoom out",
+    "zoomIn": "Zoom in",
+    "zoomLevel": "Zoom level",
+    "dragHint": "Drag the photo to adjust its position",
+    "usePhoto": "Use This Photo",
+    "previewLabel": "Crop preview — drag to reposition, scroll or use the slider to zoom",
+    "previewAlt": "Crop preview"
+  },
+  "qr": {
+    "title": "Scan to open on your phone",
+    "description": "Point your phone camera at the QR code to open this app on your device.",
+    "copyUrl": "Copy URL",
+    "copied": "URL copied to clipboard",
+    "urlLabel": "App URL"
+  },
+  "errors": {
+    "network": "Network error. Please check your connection and try again.",
+    "validationFailed": "Validation failed.",
+    "invalidFields": "One or more fields are invalid.",
+    "badRequest": "Invalid request. Please check your input.",
+    "invalidCredentials": "Invalid credentials.",
+    "forbidden": "You do not have permission to perform this action.",
+    "serverError": "Server error. Please try again later.",
+    "unexpected": "An unexpected error occurred.",
+    "checkCredentials": "Please check your credentials."
+  }
+}

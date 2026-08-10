@@ -1,0 +1,349 @@
+{
+  "app": { "name": "ሲቢኢ የስብሰባ መገኘት", "tagline": "የስብሰባ መገኘት" },
+  "common": { "cancel": "ሰርዝ", "close": "ዝጋ", "loading": "በመጫን ላይ...", "user": "ተጠቃሚ" },
+  "language": { "label": "ቋንቋ" },
+  "nav": {
+    "dashboard": "ዳሽቦርድ",
+    "takeAttendance": "መገኘት መመዝገብ",
+    "myProfile": "የእኔ መገለጫ",
+    "employees": "ሰራተኞች",
+    "registerEmployee": "ሰራተኛ ማስመዝገብ",
+    "reports": "ሪፖርቶች",
+    "users": "ተጠቃሚዎች",
+    "toggleMenu": "ምናሌ ቀይር"
+  },
+  "userMenu": {
+    "myProfile": "የእኔ መገለጫ",
+    "changePassword": "የይለፍ ቃል ቀይር",
+    "deleteAccount": "መለያ ሰርዝ",
+    "signOut": "ውጣ"
+  },
+  "password": {
+    "title": "የይለፍ ቃል መቀየር",
+    "hint": "የመለያዎን የይለፍ ቃል ያዘምኑ። በሚቀጥለው ጊዜ ሲገቡ አዲሱን የይለፍ ቃል መጠቀም ይኖርብዎታል።",
+    "current": "የአሁኑ የይለፍ ቃል",
+    "currentPlaceholder": "የአሁኑን የይለፍ ቃል ያስገቡ",
+    "new": "አዲስ የይለፍ ቃል",
+    "newPlaceholder": "ቢያንስ 6 ቁምፊዎች",
+    "confirm": "አዲሱን የይለፍ ቃል ያረጋግጡ",
+    "confirmPlaceholder": "አዲሱን የይለፍ ቃል ይድገሙት",
+    "errors": {
+      "currentRequired": "የአሁኑ የይለፍ ቃል ያስፈልጋል።",
+      "minLength": "አዲሱ የይለፍ ቃል ቢያንስ 6 ቁምፊዎች መሆን አለበት።",
+      "mismatch": "የይለፍ ቃሎቹ አይዛመዱም።"
+    },
+    "success": "የይለፍ ቃል በተሳካ ሁኔታ ተቀይሯል",
+    "failed": "የይለፍ ቃል መቀየር አልተሳካም",
+    "failedRetry": "የይለፍ ቃል መቀየር አልተሳካም። እባክዎ እንደገና ይሞክሩ።"
+  },
+  "deleteAccount": {
+    "title": "መለያ መሰረዝ",
+    "warning": "ይህ እርምጃ ሊቀለበስ አይችልም",
+    "description": "መለያዎ እና ሁሉም ተያያዥ መረጃዎች በቋሚነት ይሰረዛሉ። ወዲያውኑ ከስርዓቱ ይወጣሉ።",
+    "confirm": "መለያዬን ሰርዝ",
+    "success": "መለያ በተሳካ ሁኔታ ተሰርዟል",
+    "failed": "መለያ መሰረዝ አልተሳካም"
+  },
+  "login": {
+    "subtitle": "ለመቀጠል ወደ መለያዎ ይግቡ",
+    "emailLabel": "ኢሜይል ወይም የተጠቃሚ ስም",
+    "emailPlaceholder": "ኢሜይልዎን ወይም የተጠቃሚ ስምዎን ያስገቡ",
+    "passwordLabel": "የይለፍ ቃል",
+    "passwordPlaceholder": "የይለፍ ቃልዎን ያስገቡ",
+    "signIn": "ግባ",
+    "noAccount": "መለያ የለዎትም?",
+    "registerHere": "እዚህ ይመዝገቡ",
+    "welcomeBack": "እንኳን ደህና መጡ!",
+    "errors": {
+      "emailRequired": "ኢሜይል ወይም የተጠቃሚ ስም ያስፈልጋል።",
+      "passwordRequired": "የይለፍ ቃል ያስፈልጋል።",
+      "loginFailed": "መግባት አልተሳካም። እባክዎ እንደገና ይሞክሩ።",
+      "emailInvalid": "የተሰጠው ኢሜይል ወይም የተጠቃሚ ስም ትክክል አይደለም።",
+      "passwordInvalid": "የተሰጠው የይለፍ ቃል ትክክል አይደለም።"
+    }
+  },
+  "register": {
+    "title": "መለያ ፍጠር",
+    "subtitle": "የመገኘት ስርዓቱን ለመጠቀም ይመዝገቡ",
+    "emailLabel": "ኢሜይል",
+    "emailPlaceholder": "your@email.com",
+    "usernameLabel": "የተጠቃሚ ስም",
+    "usernamePlaceholder": "የተጠቃሚ ስም ይምረጡ",
+    "employeeIdLabel": "የሰራተኛ መለያ (ID)",
+    "employeeIdPlaceholder": "ለምሳሌ EMP001",
+    "passwordLabel": "የይለፍ ቃል",
+    "passwordPlaceholder": "ቢያንስ 6 ቁምፊዎች",
+    "confirmLabel": "የይለፍ ቃል ያረጋግጡ",
+    "confirmPlaceholder": "የይለፍ ቃልዎን ይድገሙት",
+    "haveAccount": "መለያ አለዎት?",
+    "signIn": "ይግቡ",
+    "success": "መለያ በተሳካ ሁኔታ ተፈጥሯል!",
+    "failed": "ምዝገባ አልተሳካም። እባክዎ መረጃዎን ያረጋግጡ።",
+    "errors": {
+      "emailRequired": "ኢሜይል ያስፈልጋል።",
+      "emailInvalid": "ትክክለኛ የኢሜይል አድራሻ ያስገቡ።",
+      "usernameRequired": "የተጠቃሚ ስም ያስፈልጋል።",
+      "employeeIdRequired": "የሰራተኛ መለያ (ID) ያስፈልጋል።",
+      "passwordRequired": "የይለፍ ቃል ያስፈልጋል።",
+      "passwordMin": "የይለፍ ቃል ቢያንስ 6 ቁምፊዎች መሆን አለበት።",
+      "confirmRequired": "እባክዎ የይለፍ ቃልዎን ያረጋግጡ።",
+      "confirmMismatch": "የይለፍ ቃሎቹ አይዛመዱም።"
+    }
+  },
+  "dashboard": {
+    "title": "ዳሽቦርድ",
+    "subtitle": "የዛሬ የስብሰባ መገኘት አጠቃላይ እይታ",
+    "totalEmployees": "አጠቃላይ ሰራተኞች",
+    "morningAttendance": "የጠዋት መገኘት",
+    "afternoonAttendance": "የከሰዓት መገኘት",
+    "recentAttendances": "የቅርብ ጊዜ መገኘቶች",
+    "loadFailed": "የዳሽቦርድ መረጃ መጫን አልተሳካም",
+    "table": {
+      "employee": "ሰራተኛ",
+      "department": "ክፍል",
+      "date": "ቀን",
+      "session": "ክፍለ ጊዜ",
+      "time": "ሰዓት"
+    },
+    "empty": {
+      "title": "እስካሁን የመገኘት መዝገብ የለም",
+      "description": "ሰራተኞች መገኘታቸውን መዝግበው ሲገቡ መዝገቦቹ እዚህ ይታያሉ።"
+    },
+    "session": { "morning": "ጠዋት", "afternoon": "ከሰዓት" }
+  },
+  "employees": {
+    "title": "ሰራተኞች",
+    "registeredCount_one": "{{count}} ሰራተኛ ተመዝግቧል",
+    "registeredCount_other": "{{count}} ሰራተኞች ተመዝግበዋል",
+    "addEmployee": "ሰራተኛ ጨምር",
+    "registerEmployee": "ሰራተኛ አስመዝግብ",
+    "searchPlaceholder": "በስም፣ በመለያ (ID) ወይም በመምሪያ ይፈልጉ...",
+    "table": {
+      "id": "መለያ (ID)",
+      "fullName": "ሙሉ ስም",
+      "division": "ዲቪዥን",
+      "jobTitle": "የስራ መደብ",
+      "department": "መምሪያ",
+      "phone": "ስልክ",
+      "actions": "ተግባራት"
+    },
+    "edit": "አርትዕ",
+    "delete": "ሰርዝ",
+    "empty": {
+      "noSearch": "ከፍለጋዎ ጋር የሚዛመድ ሰራተኛ የለም",
+      "tryDifferent": "በሌላ የፍለጋ ቃል ይሞክሩ።",
+      "noEmployees": "ምንም ሰራተኛ አልተመዘገበም",
+      "registerFirst": "ለመጀመር የመጀመሪያ ሰራተኛዎን ያስመዝግቡ።"
+    },
+    "deleteModal": {
+      "title": "ሰራተኛ ሰርዝ",
+      "confirmBefore": "እርግጠኛ ነዎት",
+      "confirmAfter": "ን መሰረዝ ይፈልጋሉ? ይህ እርምጃ ሊቀለበስ አይችልም።"
+    },
+    "toasts": {
+      "deleted": "ሰራተኛ በተሳካ ሁኔታ ተሰርዟል",
+      "deleteFailed": "ሰራተኛ መሰረዝ አልተሳካም",
+      "loadFailed": "ሰራተኞችን መጫን አልተሳካም"
+    }
+  },
+  "employeeForm": {
+    "editTitle": "ሰራተኛ አርትዕ",
+    "registerTitle": "ሰራተኛ አስመዝግብ",
+    "editSubtitle": "የሰራተኛ መረጃ ያዘምኑ",
+    "registerSubtitle": "አዲስ ሰራተኛ ወደ ስርዓቱ ያክሉ",
+    "employeeId": "የሰራተኛ መለያ (ID)",
+    "employeeIdPlaceholder": "ለምሳሌ EMP001",
+    "fullName": "ሙሉ ስም",
+    "fullNamePlaceholder": "የሰራተኛው ሙሉ ስም",
+    "division": "ዲቪዥን",
+    "divisionPlaceholder": "ለምሳሌ Operations",
+    "jobTitle": "የስራ መደብ",
+    "jobTitlePlaceholder": "ለምሳሌ Officer",
+    "department": "መምሪያ",
+    "departmentPlaceholder": "ለምሳሌ IT",
+    "phoneNumber": "ስልክ ቁጥር",
+    "phoneNumberPlaceholder": "ለምሳሌ +251-XXX-XXXX",
+    "errors": {
+      "employeeIdRequired": "የሰራተኛ መለያ (ID) ያስፈልጋል",
+      "fullNameRequired": "ሙሉ ስም ያስፈልጋል",
+      "divisionRequired": "ዲቪዥን ያስፈልጋል",
+      "jobTitleRequired": "የስራ መደብ ያስፈልጋል",
+      "departmentRequired": "መምሪያ ያስፈልጋል",
+      "phoneRequired": "ስልክ ቁጥር ያስፈልጋል",
+      "phoneInvalid": "የስልክ ቁጥር 10 ወይም 11 አሃዝ መሆን አለበት"
+    },
+    "updateBtn": "ሰራተኛ አዘምን",
+    "registerBtn": "ሰራተኛ አስመዝግብ",
+    "toasts": {
+      "notFound": "ሰራተኛ አልተገኘም",
+      "loadFailed": "ሰራተኛ መጫን አልተሳካም",
+      "updated": "ሰራተኛ በተሳካ ሁኔታ ተዘምኗል",
+      "updateFailed": "ሰራተኛ ማዘመን አልተሳካም",
+      "registered": "ሰራተኛ በተሳካ ሁኔታ ተመዝግቧል",
+      "registerFailed": "ሰራተኛ ማስመዝገብ አልተሳካም"
+    }
+  },
+  "reports": {
+    "title": "ሪፖርቶች እና ማውጣት",
+    "subtitle": "የመገኘት መረጃን በሚመርጡት ቅርጸት ያውጡ",
+    "formats": {
+      "csv": "CSV",
+      "csvDesc": "በነጠላ ሰረዝ የተለዩ እሴቶች (.csv)",
+      "excel": "Excel",
+      "excelDesc": "Microsoft Excel (.xlsx)",
+      "pdf": "PDF",
+      "pdfDesc": "የፖርታብል ሰነድ ቅርጸት (.pdf)"
+    },
+    "settingsTitle": "የማውጫ ቅንብሮች",
+    "formatLabel": "የማውጫ ቅርጸት",
+    "infoText": "ሪፖርቱ ሁሉንም የመገኘት መዝገቦች ከሰራተኛ ዝርዝሮች፣ የስብሰባ ቀናት፣ ክፍለ ጊዜዎች እና የመገኘት ሰዓቶች ጋር ያካትታል።",
+    "download": "ሪፖርት አውርድ",
+    "toasts": {
+      "downloaded": "ሪፖርት በተሳካ ሁኔታ ወርዷል",
+      "exportFailed": "ሪፖርት ማውጣት አልተሳካም"
+    }
+  },
+  "users": {
+    "title": "የተጠቃሚ አስተዳደር",
+    "registeredCount_one": "{{count}} ተጠቃሚ ተመዝግቧል",
+    "registeredCount_other": "{{count}} ተጠቃሚዎች ተመዝግበዋል",
+    "assignRole": "ሚና መድብ",
+    "changeRole": "ሚና ቀይር",
+    "removeRole": "ሚና አስወግድ",
+    "resetPassword": "የይለፍ ቃል ዳግም አስጀምር",
+    "noEmail": "ኢሜይል የለም",
+    "lockedUntil": "እስከ {{date}} ድረስ ተቆልፏል",
+    "empty": {
+      "title": "ተጠቃሚ አልተገኘም",
+      "description": "ተጠቃሚዎች ሲመዘገቡ እዚህ ይታያሉ።"
+    },
+    "modal": {
+      "assignTitle": "ሚና መድብ",
+      "changeTitle": "ሚና ቀይር",
+      "removeTitle": "ሚና አስወግድ",
+      "assignText": "ለ{{name}} አዲስ ሚና ይመድቡ",
+      "changeText": "የ{{name}}ን ሚና ይቀይሩ",
+      "removeText": "ከ{{name}} ሚና ያስወግዱ"
+    },
+    "roleName": "የሚና ስም",
+    "roleNamePlaceholder": "ለምሳሌ Admin, Manager",
+    "newRole": "አዲስ ሚና",
+    "newRolePlaceholder": "ለምሳሌ Admin",
+    "assignBtn": "መድብ",
+    "changeBtn": "ቀይር",
+    "removeBtn": "አስወግድ",
+    "passwordModal": {
+      "title": "የይለፍ ቃል ዳግም አስጀምር",
+      "forUser": "የይለፍ ቃል ዳግም አስጀምር ለ",
+      "hint": "ተጠቃሚው ለመግባት ይህን አዲስ የይለፍ ቃል መጠቀም ይኖርበታል።"
+    },
+    "newPassword": "አዲስ የይለፍ ቃል",
+    "newPasswordPlaceholder": "አዲስ የይለፍ ቃል ያስገቡ",
+    "resetBtn": "የይለፍ ቃል ዳግም አስጀምር",
+    "deleteModal": {
+      "title": "ተጠቃሚ ሰርዝ",
+      "confirmBefore": "እርግጠኛ ነዎት",
+      "confirmAfter": "ን መሰረዝ ይፈልጋሉ? ይህ እርምጃ ሊቀለበስ አይችልም።"
+    },
+    "deleteUserBtn": "ተጠቃሚ ሰርዝ",
+    "toasts": {
+      "loadFailed": "ተጠቃሚዎችን መጫን አልተሳካም",
+      "roleUpdated": "ሚና በተሳካ ሁኔታ ተዘምኗል",
+      "roleUpdateFailed": "ሚና ማዘመን አልተሳካም",
+      "passwordReset": "የይለፍ ቃል በተሳካ ሁኔታ ዳግም ተስተካክሏል",
+      "passwordResetFailed": "የይለፍ ቃል ዳግም ማስጀመር አልተሳካም",
+      "userDeleted": "ተጠቃሚ በተሳካ ሁኔታ ተሰርዟል",
+      "deleteFailed": "ተጠቃሚ መሰረዝ አልተሳካም"
+    }
+  },
+  "attendance": {
+    "title": "መገኘት መመዝገብ",
+    "subtitle": "የስብሰባ መገኘትዎን ይመዝግቡ",
+    "noEmployee": {
+      "title": "ምንም ሰራተኛ አልተገናኘም",
+      "description": "መለያዎ ከሰራተኛ መዝገብ ጋር አልተገናኘም። እባክዎ አስተዳዳሪን ያግኙ።"
+    },
+    "identityTitle": "ማንነትዎ",
+    "employeeId": "የሰራተኛ መለያ (ID)",
+    "sessionOptional": "ክፍለ ጊዜ (አማራጭ)",
+    "sessionAutoDetect": "በሰዓት በራስ-ሰር ይለያል",
+    "sessionMorning": "የጠዋት ክፍለ ጊዜ",
+    "sessionAfternoon": "የከሰዓት ክፍለ ጊዜ",
+    "checking": "የመገኘት ሁኔታዎን በመፈተሽ ላይ...",
+    "statusTitle": "የመገኘት ሁኔታ",
+    "awaitingCheck": "ምርመራ በመጠበቅ ላይ",
+    "id": "መለያ (ID): {{id}}",
+    "division": "ዲቪዥን",
+    "jobTitle": "የስራ መደብ",
+    "department": "መምሪያ",
+    "phone": "ስልክ",
+    "alreadyAttended": "አስቀድሞ ተገኝቷል",
+    "notYetAttended": "ገና አልተገኘም",
+    "recordAttendance": "መገኘት ይመዝገብ",
+    "attendanceCompleted": "መገኘት ተጠናቋል",
+    "checkingStatus": "ሁኔታዎን በመፈተሽ ላይ...",
+    "checkingStatusDesc": "የመገኘት ሁኔታዎን ስንፈተሽ እባክዎ ይጠብቁ።",
+    "toasts": {
+      "recordedFor": "ለ{{name}} መገኘት ተመዝግቧል",
+      "takeFailed": "መገኘት መመዝገብ አልተሳካም"
+    },
+    "errors": {
+      "noEmployeeFound": "መለያ \"{{id}}\" ያለው ሰራተኛ አልተገኘም።",
+      "checkFailed": "ሰራተኛን መፈተሽ አልተሳካም። እባክዎ እንደገና ይሞክሩ።"
+    }
+  },
+  "profile": {
+    "title": "የእኔ መገለጫ",
+    "subtitle": "መለያዎን እና የመገለጫ ስዕልዎን ያስተዳድሩ",
+    "pictureTitle": "የመገለጫ ስዕል",
+    "pictureIntro": "የመገለጫ ስዕልዎ በመተግበሪያው ሁሉ ይታያል። ከታች መቀየር ወይም መሰረዝ ይችላሉ።",
+    "pictureIntroNone": "እስካሁን የመገለጫ ስዕል የለዎትም። በጎን አሞሌ፣ በመገለጫ ገጽ እና በተጠቃሚ ዝርዝሮች ውስጥ እንዲታይ አንዱን ይስቀሉ።",
+    "chooseNewPicture": "አዲስ ስዕል ይምረጡ",
+    "choosePicture": "ስዕል ይምረጡ",
+    "removePicture": "ስዕል አስወግድ",
+    "unknownType": "ያልታወቀ ዓይነት",
+    "allowedTypes": "የሚፈቀዱ: JPG, JPEG, PNG, WEBP · ከፍተኛ መጠን: 5 MB",
+    "accountDetails": "የመለያ ዝርዝሮች",
+    "username": "የተጠቃሚ ስም",
+    "email": "ኢሜይል",
+    "employee": "ሰራተኛ",
+    "role": "ሚና",
+    "toasts": {
+      "updated": "የመገለጫ ስዕል ተዘምኗል",
+      "uploaded": "የመገለጫ ስዕል ተሰቅሏል",
+      "uploadFailed": "የመገለጫ ስዕል መስቀል አልተሳካም።",
+      "removed": "የመገለጫ ስዕል ተወግዷል",
+      "removeFailed": "የመገለጫ ስዕል ማስወገድ አልተሳካም።"
+    }
+  },
+  "cropper": {
+    "loadError": "ይህን ስዕል ለማርትዕ መጫን አልተቻለም። ሌላ ፋይል ይሞክሩ።",
+    "sizeHint": "ካሬ መቁረጥ · እንደ {{size}} × {{size}} ይቀመጣል",
+    "zoom": "ማጉላት",
+    "zoomOut": "አጉልል",
+    "zoomIn": "አጉላ",
+    "zoomLevel": "የማጉላት ደረጃ",
+    "dragHint": "አቀማመጡን ለማስተካከል ስዕሉን ይጎትቱ",
+    "usePhoto": "ይህን ስዕል ተጠቀም",
+    "previewLabel": "የመቁረጫ ቅድመ እይታ — ለማንቀሳቀስ ይጎትቱ፣ ለማጉላት ይሽከረከሩ ወይም ተንሸራታቹን ይጠቀሙ",
+    "previewAlt": "የመቁረጫ ቅድመ እይታ"
+  },
+  "qr": {
+    "title": "በስልክዎ ለመክፈት ይቃኙ",
+    "description": "ይህን መተግበሪያ በመሳሪያዎ ለመክፈት የካሜራዎን ወደ ኪዩአር ኮዱ ይጠቁሙ።",
+    "copyUrl": "ዩአርኤል ይቅዱ",
+    "copied": "ዩአርኤል ወደ ቅንጥብ ሰሌዳ ተቀድቷል",
+    "urlLabel": "የመተግበሪያ ዩአርኤል"
+  },
+  "errors": {
+    "network": "የአውታረ መረብ ስህተት። እባክዎ ግንኙነትዎን ያረጋግጡ እና እንደገና ይሞክሩ።",
+    "validationFailed": "ማረጋገጥ አልተሳካም።",
+    "invalidFields": "አንድ ወይም ከዚያ በላይ መስኮች ትክክል አይደሉም።",
+    "badRequest": "ልክ ያልሆነ ጥያቄ። እባክዎ ግብዓትዎን ያረጋግጡ።",
+    "invalidCredentials": "ልክ ያልሆኑ የመግቢያ ማስረጃዎች።",
+    "forbidden": "ይህን ተግባር ለማከናወን ፈቃድ የለዎትም።",
+    "serverError": "የአገልጋይ ስህተት። እባክዎ በኋላ እንደገና ይሞክሩ።",
+    "unexpected": "ያልተጠበቀ ስህተት ተከስቷል።",
+    "checkCredentials": "እባክዎ የመግቢያ ማስረጃዎችዎን ያረጋግጡ።"
+  }
+}

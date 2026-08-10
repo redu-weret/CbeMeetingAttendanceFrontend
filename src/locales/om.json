@@ -1,0 +1,349 @@
+{
+  "app": { "name": "CBE Hirmaannaa Walga'ii", "tagline": "Hirmaannaa Walga'ii" },
+  "common": { "cancel": "Haqi", "close": "Cufi", "loading": "Fe'irama jira...", "user": "Fayyadamaa" },
+  "language": { "label": "Afaan" },
+  "nav": {
+    "dashboard": "Daashboordii",
+    "takeAttendance": "Hirmaannaa Galmeessi",
+    "myProfile": "Piroofaayila Koo",
+    "employees": "Hojjettoota",
+    "registerEmployee": "Hojjetaa Galmeessi",
+    "reports": "Rippooroota",
+    "users": "Fayyadamtoota",
+    "toggleMenu": "Menyuu jijjiiri"
+  },
+  "userMenu": {
+    "myProfile": "Piroofaayila Koo",
+    "changePassword": "Jecha Iccitii Jijjiiri",
+    "deleteAccount": "Akkaawuntii Haqi",
+    "signOut": "Ba'i"
+  },
+  "password": {
+    "title": "Jecha Iccitii Jijjiiruu",
+    "hint": "Jecha iccitii akkaawuntii kee haaromsi. Yeroo itti aanu seenuuf jecha iccitii haaraa fayyadamuu qabda.",
+    "current": "Jecha Iccitii Ammaa",
+    "currentPlaceholder": "Jecha iccitii ammaa kee galchi",
+    "new": "Jecha Iccitii Haaraa",
+    "newPlaceholder": "Ummataa 6 qubee",
+    "confirm": "Jecha Iccitii Haaraa Mirkaneessi",
+    "confirmPlaceholder": "Jecha iccitii haaraa kee irra deebi'i",
+    "errors": {
+      "currentRequired": "Jecha iccitii ammaa barbaachisa.",
+      "minLength": "Jecha iccitii haaraa ummataa 6 qubee ta'uu qaba.",
+      "mismatch": "Jechoonni iccitii wal hin siman."
+    },
+    "success": "Jecha iccitii milkaa'inaan jijjiirrameera",
+    "failed": "Jecha iccitii jijjiiruu hin dandeessine",
+    "failedRetry": "Jecha iccitii jijjiiruu hin dandeessine. Maaloo irra deebi'ii yaali."
+  },
+  "deleteAccount": {
+    "title": "Akkaawuntii Haquu",
+    "warning": "Tarkaanfiin kun hin deebi'u",
+    "description": "Akkaawuntii kee fi odeeffannoon isaan walqabate hundi bara baraan ni haqama. Achumaan sirni irraa ba'ita.",
+    "confirm": "Akkaawuntii Koo Haqi",
+    "success": "Akkaawuntii milkaa'inaan haqameera",
+    "failed": "Akkaawuntii haquu hin dandeessine"
+  },
+  "login": {
+    "subtitle": "Itti fufuuf akkaawuntii kee seeni",
+    "emailLabel": "Imeelii ykn Maqaa Fayyadamaa",
+    "emailPlaceholder": "Imeelii ykn maqaa fayyadamaa kee galchi",
+    "passwordLabel": "Jecha Iccitii",
+    "passwordPlaceholder": "Jecha iccitii kee galchi",
+    "signIn": "Seeni",
+    "noAccount": "Akkaawuntii hin qabduu?",
+    "registerHere": "As irratti galmeessi",
+    "welcomeBack": "Baga nagaan deebite!",
+    "errors": {
+      "emailRequired": "Imeelii ykn maqaa fayyadamaa barbaachisa.",
+      "passwordRequired": "Jecha iccitii barbaachisa.",
+      "loginFailed": "Seenuu hin danda'u. Maaloo irra deebi'ii yaali.",
+      "emailInvalid": "Imeelii ykn maqaan fayyadamaa kenname sirrii miti.",
+      "passwordInvalid": "Jechaan iccitii kenname sirrii miti."
+    }
+  },
+  "register": {
+    "title": "Akkaawuntii Uumi",
+    "subtitle": "Sirna hirmaannaa fayyadamuuf galmeessi",
+    "emailLabel": "Imeelii",
+    "emailPlaceholder": "your@email.com",
+    "usernameLabel": "Maqaa Fayyadamaa",
+    "usernamePlaceholder": "Maqaa fayyadamaa filadhu",
+    "employeeIdLabel": "Lakkoofsa Hojjetaa (ID)",
+    "employeeIdPlaceholder": "fkn. EMP001",
+    "passwordLabel": "Jecha Iccitii",
+    "passwordPlaceholder": "Ummataa 6 qubee",
+    "confirmLabel": "Jecha Iccitii Mirkaneessi",
+    "confirmPlaceholder": "Jecha iccitii kee irra deebi'i",
+    "haveAccount": "Akkaawuntii qabduu?",
+    "signIn": "Seeni",
+    "success": "Akkaawuntii milkaa'inaan uumameera!",
+    "failed": "Galmeessuu hin danda'u. Odeeffannoo kee mirkaneessi.",
+    "errors": {
+      "emailRequired": "Imeelii barbaachisa.",
+      "emailInvalid": "Teessoo imeelii sirrii galchi.",
+      "usernameRequired": "Maqaan fayyadamaa barbaachisa.",
+      "employeeIdRequired": "Lakkoofsi hojjetaa (ID) barbaachisa.",
+      "passwordRequired": "Jecha iccitii barbaachisa.",
+      "passwordMin": "Jecha iccitii ummataa 6 qubee ta'uu qaba.",
+      "confirmRequired": "Maaloo jecha iccitii kee mirkaneessi.",
+      "confirmMismatch": "Jechoonni iccitii wal hin siman."
+    }
+  },
+  "dashboard": {
+    "title": "Daashboordii",
+    "subtitle": "Cuunfaa hirmaannaa walga'ii har'aa",
+    "totalEmployees": "Hojjettoota Waliigalaa",
+    "morningAttendance": "Hirmaannaa Ganamaa",
+    "afternoonAttendance": "Hirmaannaa Guyyaa Boodaa",
+    "recentAttendances": "Hirmaannaa Dhiyoo",
+    "loadFailed": "Odeeffannoo daashboordii fe'uu hin dandeessine",
+    "table": {
+      "employee": "Hojjetaa",
+      "department": "Muummee",
+      "date": "Guyyaa",
+      "session": "Yeroo",
+      "time": "Sa'aa"
+    },
+    "empty": {
+      "title": "Hanga amma galmee hirmaannaa hin jiru",
+      "description": "Yeroo hojjettoonni hirmaannaa isaanii galmeessan galmeen asitti mul'ata."
+    },
+    "session": { "morning": "Ganama", "afternoon": "Guyyaa booda" }
+  },
+  "employees": {
+    "title": "Hojjettoota",
+    "registeredCount_one": "Hojjetaan {{count}} galmeeffameera",
+    "registeredCount_other": "Hojjettoonni {{count}} galmeeffamaniiru",
+    "addEmployee": "Hojjetaa Id'isi",
+    "registerEmployee": "Hojjetaa Galmeessi",
+    "searchPlaceholder": "Maqaan, ID ykn muummee irratti barbaadi...",
+    "table": {
+      "id": "ID",
+      "fullName": "Maqaa Guutuu",
+      "division": "Qooda",
+      "jobTitle": "Sadarkaa Hojii",
+      "department": "Muummee",
+      "phone": "Bilbila",
+      "actions": "Gochoota"
+    },
+    "edit": "Fooyyessi",
+    "delete": "Haqi",
+    "empty": {
+      "noSearch": "Hojjetaan barbaaduu kee wajjin walsimu hin jiru",
+      "tryDifferent": "Jecha barbaaduu garaa kaaniitti yaali.",
+      "noEmployees": "Hojjetaan tokko iyyuu hin galmeeffamne",
+      "registerFirst": "Ka'uuf hojjetaa kee jalqabaa galmeessi."
+    },
+    "deleteModal": {
+      "title": "Hojjetaa Haqi",
+      "confirmBefore": "Dhugumaan",
+      "confirmAfter": " haquu barbaaddaa? Tarkaanfiin kun hin deebi'u."
+    },
+    "toasts": {
+      "deleted": "Hojjetaan milkaa'inaan haqameera",
+      "deleteFailed": "Hojjetaa haquu hin dandeessine",
+      "loadFailed": "Hojjettoota fe'uu hin dandeessine"
+    }
+  },
+  "employeeForm": {
+    "editTitle": "Hojjetaa Fooyyessi",
+    "registerTitle": "Hojjetaa Galmeessi",
+    "editSubtitle": "Odeeffannoo hojjetaa haaromsi",
+    "registerSubtitle": "Hojjetaa haaraa sirnatti id'isi",
+    "employeeId": "Lakkoofsa Hojjetaa (ID)",
+    "employeeIdPlaceholder": "fkn. EMP001",
+    "fullName": "Maqaa Guutuu",
+    "fullNamePlaceholder": "Maqaa guutuu hojjetaa",
+    "division": "Qooda",
+    "divisionPlaceholder": "fkn. Operations",
+    "jobTitle": "Sadarkaa Hojii",
+    "jobTitlePlaceholder": "fkn. Officer",
+    "department": "Muummee",
+    "departmentPlaceholder": "fkn. IT",
+    "phoneNumber": "Lakkoofsa Bilbilaa",
+    "phoneNumberPlaceholder": "fkn. +251-XXX-XXXX",
+    "errors": {
+      "employeeIdRequired": "Lakkoofsi hojjetaa (ID) barbaachisa",
+      "fullNameRequired": "Maqaan guutuu barbaachisa",
+      "divisionRequired": "Qoodni barbaachisa",
+      "jobTitleRequired": "Sadarkaan hojii barbaachisa",
+      "departmentRequired": "Muummeen barbaachisa",
+      "phoneRequired": "Lakkoofsi bilbilaa barbaachisa",
+      "phoneInvalid": "Lakkoofsi bilbilaa 10 ykn 11 tartiiba ta'uu qaba"
+    },
+    "updateBtn": "Hojjetaa Fooyyessi",
+    "registerBtn": "Hojjetaa Galmeessi",
+    "toasts": {
+      "notFound": "Hojjetaan hin argamne",
+      "loadFailed": "Hojjetaa fe'uu hin dandeessine",
+      "updated": "Hojjetaan milkaa'inaan haaromfameera",
+      "updateFailed": "Hojjetaa haaromsuu hin dandeessine",
+      "registered": "Hojjetaan milkaa'inaan galmeeffameera",
+      "registerFailed": "Hojjetaa galmeessuu hin dandeessine"
+    }
+  },
+  "reports": {
+    "title": "Rippoorootaa fi Baasuu",
+    "subtitle": "Odeeffannoo hirmaannaa bifa filatte keessatti baasi",
+    "formats": {
+      "csv": "CSV",
+      "csvDesc": "Baadiyoo komaa addaan baafame (.csv)",
+      "excel": "Excel",
+      "excelDesc": "Microsoft Excel (.xlsx)",
+      "pdf": "PDF",
+      "pdfDesc": "Bifa Dukumentii Daddarbaa (.pdf)"
+    },
+    "settingsTitle": "Qindaa'ina Baasuu",
+    "formatLabel": "Bifa Baasuu",
+    "infoText": "Rippoorichi galmeewwan hirmaannaa hunda odeeffannoo hojjetaa, guyyoota walga'ii, yeroowwan fi sa'aawwan hirmaannaa wajjin of keessatti qabaata.",
+    "download": "Rippooricha Buusi",
+    "toasts": {
+      "downloaded": "Rippoorichi milkaa'inaan buufameera",
+      "exportFailed": "Rippooricha baasuu hin dandeessine"
+    }
+  },
+  "users": {
+    "title": "Bulchiinsa Fayyadamtootaa",
+    "registeredCount_one": "Fayyadamaan {{count}} galmeeffameera",
+    "registeredCount_other": "Fayyadamtoonni {{count}} galmeeffamaniiru",
+    "assignRole": "Gahee Kenni",
+    "changeRole": "Gahee Jijjiiri",
+    "removeRole": "Gahee Baasi",
+    "resetPassword": "Jecha Iccitii Deebisi",
+    "noEmail": "Imeelii hin qabu",
+    "lockedUntil": "Hanga {{date}} cufameera",
+    "empty": {
+      "title": "Fayyadamaan hin argamne",
+      "description": "Fayyadamtoonni yeroo galmeeffatan asitti mul'atu."
+    },
+    "modal": {
+      "assignTitle": "Gahee Kenni",
+      "changeTitle": "Gahee Jijjiiruu",
+      "removeTitle": "Gahee Baasuu",
+      "assignText": "Gahee haaraa {{name}}f kenni",
+      "changeText": "Gahee {{name}} jijjiiri",
+      "removeText": "Gahee {{name}} irraa baasi"
+    },
+    "roleName": "Maqaa Gahee",
+    "roleNamePlaceholder": "fkn. Admin, Manager",
+    "newRole": "Gahee Haaraa",
+    "newRolePlaceholder": "fkn. Admin",
+    "assignBtn": "Kenni",
+    "changeBtn": "Jijjiiri",
+    "removeBtn": "Baasi",
+    "passwordModal": {
+      "title": "Jecha Iccitii Deebisii",
+      "forUser": "Jecha iccitii deebisii",
+      "hint": "Fayyadamaan seenuuf jecha iccitii haaraa kana fayyadamuun qaba."
+    },
+    "newPassword": "Jecha Iccitii Haaraa",
+    "newPasswordPlaceholder": "Jecha iccitii haaraa galchi",
+    "resetBtn": "Jecha Iccitii Deebisi",
+    "deleteModal": {
+      "title": "Fayyadamaa Haqi",
+      "confirmBefore": "Dhugumaan",
+      "confirmAfter": " haquu barbaaddaa? Tarkaanfiin kun hin deebi'u."
+    },
+    "deleteUserBtn": "Fayyadamaa Haqi",
+    "toasts": {
+      "loadFailed": "Fayyadamtoota fe'uu hin dandeessine",
+      "roleUpdated": "Gaheen milkaa'inaan haaromfameera",
+      "roleUpdateFailed": "Gahee haaromsuu hin dandeessine",
+      "passwordReset": "Jecha iccitii milkaa'inaan deebifameera",
+      "passwordResetFailed": "Jecha iccitii deebisuu hin dandeessine",
+      "userDeleted": "Fayyadamaan milkaa'inaan haqameera",
+      "deleteFailed": "Fayyadamaa haquu hin dandeessine"
+    }
+  },
+  "attendance": {
+    "title": "Hirmaannaa Galmeessi",
+    "subtitle": "Hirmaannaa walga'ii kee galmeessi",
+    "noEmployee": {
+      "title": "Hojjetaan Walqabate Hin Jiru",
+      "description": "Akkaawuntii kee waliin galmee hojjetaa hin walqabatu. Maaloo bulchaa quunnami."
+    },
+    "identityTitle": "Addummaa Keetii",
+    "employeeId": "Lakkoofsa Hojjetaa (ID)",
+    "sessionOptional": "Yeroo (filannoo)",
+    "sessionAutoDetect": "Sa'aa irratti ofumaan adda baafama",
+    "sessionMorning": "Yeroo Ganamaa",
+    "sessionAfternoon": "Yeroo Guyyaa Boodaa",
+    "checking": "Haala hirmaannaa kee sakatta'aa jira...",
+    "statusTitle": "Haala Hirmaannaa",
+    "awaitingCheck": "Sakatta'a Eeggachaa Jira",
+    "id": "ID: {{id}}",
+    "division": "Qooda",
+    "jobTitle": "Sadarkaa Hojii",
+    "department": "Muummee",
+    "phone": "Bilbila",
+    "alreadyAttended": "Duraan Hirmaateera",
+    "notYetAttended": "Hanga Amma Hin Hirmaanne",
+    "recordAttendance": "Hirmaannaa Galmeessi",
+    "attendanceCompleted": "Hirmaannaan Xumurameera",
+    "checkingStatus": "Haala kee sakatta'aa jira...",
+    "checkingStatusDesc": "Yeroo haala hirmaannaa kee sakatta'inu maaloo eegi.",
+    "toasts": {
+      "recordedFor": "Hirmaannaan {{name}}f galmeeffameera",
+      "takeFailed": "Hirmaannaa galmeessuu hin dandeessine"
+    },
+    "errors": {
+      "noEmployeeFound": "Hojjetaan ID \"{{id}}\" qabu hin argamne.",
+      "checkFailed": "Hojjetaa sakatta'uu hin dandeessine. Maaloo irra deebi'ii yaali."
+    }
+  },
+  "profile": {
+    "title": "Piroofaayila Koo",
+    "subtitle": "Akkaawuntii keetii fi suuraa piroofaayilaa kee bulchi",
+    "pictureTitle": "Suuraa Piroofaayilaa",
+    "pictureIntro": "Suuraan piroofaayilaa kee app keessatti hundatti mul'ata. Gadiitti jijjiiruu ykn haquu dandeessa.",
+    "pictureIntroNone": "Hanga amma suuraa piroofaayilaa hin qabdu. Sidebar, fuula piroofaayilaa fi tarreewwan fayyadamtootaa keessatti mul'atuuf tokko kaa'i.",
+    "chooseNewPicture": "Suuraa Haaraa Filadhu",
+    "choosePicture": "Suuraa Filadhu",
+    "removePicture": "Suuraa Haqi",
+    "unknownType": "gosa hin beekamne",
+    "allowedTypes": "Hayyamamaa: JPG, JPEG, PNG, WEBP · Hangaa olaanaa: 5 MB",
+    "accountDetails": "Ibsa Akkaawuntii",
+    "username": "Maqaa Fayyadamaa",
+    "email": "Imeelii",
+    "employee": "Hojjetaa",
+    "role": "Gahee",
+    "toasts": {
+      "updated": "Suuraan piroofaayilaa haaromfameera",
+      "uploaded": "Suuraan piroofaayilaa kaa'ameera",
+      "uploadFailed": "Suuraa piroofaayilaa kaa'uu hin dandeessine.",
+      "removed": "Suuraan piroofaayilaa haqameera",
+      "removeFailed": "Suuraa piroofaayilaa haquu hin dandeessine."
+    }
+  },
+  "cropper": {
+    "loadError": "Suuraa kana gulaaluuf fe'uu hin dandeessine. Faayila garaa kaaniitti yaali.",
+    "sizeHint": "Qalluu muramuu · akka {{size}} × {{size}} kuusaama",
+    "zoom": "Guddifachuu",
+    "zoomOut": "Gadi guddifachi",
+    "zoomIn": "Ol guddifachi",
+    "zoomLevel": "Sadarkaa Guddifachaa",
+    "dragHint": "Iddoo isaa fooyyessuuf suuraa harkisi",
+    "usePhoto": "Suuraa Kana Fayyadami",
+    "previewLabel": "Durargii muramaa — harkisuun iddoo jijjiiri, sigigiraa ykn slabara fayyadamuun guddifachi",
+    "previewAlt": "Durargii muramaa"
+  },
+  "qr": {
+    "title": "Mobayilaa kee irratti banuuf skaan godhi",
+    "description": "App kana mobayilaa kee irratti banuuf kaameeraa kee gara koodii QR qajeelchi.",
+    "copyUrl": "URL Galmeessi",
+    "copied": "URL gara clipboard galmeeffameera",
+    "urlLabel": "URL App"
+  },
+  "errors": {
+    "network": "Dogoggora network. Maaloo qunnamtii kee mirkaneessiitii irra deebi'ii yaali.",
+    "validationFailed": "Mirkaneessuun hin danda'ame.",
+    "invalidFields": "Dirreewwan tokkoo fi isaa ol sirrii miti.",
+    "badRequest": "Gaaffii sirrii hin taane. Maaloo galtee kee mirkaneessi.",
+    "invalidCredentials": "Ragaa seenuu sirrii miti.",
+    "forbidden": "Gochaa kana raawwachuuf hayyama hin qabdu.",
+    "serverError": "Dogoggora server. Maaloo booda irra deebi'ii yaali.",
+    "unexpected": "Dogoggorri hin eegamne uumameera.",
+    "checkCredentials": "Maaloo ragaa seenuu kee mirkaneessi."
+  }
+}

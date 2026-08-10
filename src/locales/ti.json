@@ -1,0 +1,349 @@
+{
+  "app": { "name": "ሲቢኢ ናይ ኣኼባ ምጅማር", "tagline": "ምጅማር ኣኼባ" },
+  "common": { "cancel": "ምስረድ", "close": "ዕጾ", "loading": "ይጽዕን ኣሎ...", "user": "ተጠቃሚ" },
+  "language": { "label": "ቋንቋ" },
+  "nav": {
+    "dashboard": "ዳሽቦርድ",
+    "takeAttendance": "ምጅማር ምዝገባ",
+    "myProfile": "መግለጺ ባዕለይ",
+    "employees": "ሰራሕተኛታት",
+    "registerEmployee": "ሰራሕተኛ ምዝገባ",
+    "reports": "ሪፖርታት",
+    "users": "ተጠቀምቲ",
+    "toggleMenu": "ሜኑ ምቕያር"
+  },
+  "userMenu": {
+    "myProfile": "መግለጺ ባዕለይ",
+    "changePassword": "መሓላፊ ቃል ምቕያር",
+    "deleteAccount": "መለለዪ ምጽራይ",
+    "signOut": "ውጻእ"
+  },
+  "password": {
+    "title": "መሓላፊ ቃል ምቕያር",
+    "hint": "መሓላፊ ቃል ኣካውንትኻ ኣዘምን። ኣብ ዝቕጽል ግዜ ምስ ትኣቱ ሓድሽ መሓላፊ ቃል ክትጥቀም ኢኻ።",
+    "current": "ህሉው መሓላፊ ቃል",
+    "currentPlaceholder": "ህሉው መሓላፊ ቃልካ ኣእቱ",
+    "new": "ሓድሽ መሓላፊ ቃል",
+    "newPlaceholder": "ብውሑዱ 6 ፊደላት",
+    "confirm": "ሓድሽ መሓላፊ ቃል ኣረጋግጽ",
+    "confirmPlaceholder": "ሓድሽ መሓላፊ ቃልካ ደጋግም",
+    "errors": {
+      "currentRequired": "ህሉው መሓላፊ ቃል የድሊ።",
+      "minLength": "ሓድሽ መሓላፊ ቃል ብውሑዱ 6 ፊደላት ክህልዎ ኣለዎ።",
+      "mismatch": "መሓላፊ ቃላት ኣይተሰማምዑን።"
+    },
+    "success": "መሓላፊ ቃል ብትኽክል ተቐይሩ",
+    "failed": "መሓላፊ ቃል ምቕያር ኣይተኻኸለን",
+    "failedRetry": "መሓላፊ ቃል ምቕያር ኣይተኻኸለን። በጃኻ ደጊምካ ፈትን።"
+  },
+  "deleteAccount": {
+    "title": "መለለዪ ምጽራይ",
+    "warning": "እዚ ስጉምቲ ክምለስ ኣይክእልን እዩ",
+    "description": "መለለይኻን ኩሉ ተዛማዲ ሓበሬታን ንዘለኣለም ክስረዝ እዩ። ብቐጥታ ካብ ስርዓት ክትወጽእ ኢኻ።",
+    "confirm": "መለለየይ ስረዝ",
+    "success": "መለለዪ ብትኽክል ተሰሪዙ",
+    "failed": "መለለዪ ምጽራይ ኣይተኻኸለን"
+  },
+  "login": {
+    "subtitle": "ንምቕጻል ናብ መለለይኻ እቶ",
+    "emailLabel": "ኢመይል ወይ ስም ተጠቃሚ",
+    "emailPlaceholder": "ኢመይልካ ወይ ስም ተጠቃሚኻ ኣእቱ",
+    "passwordLabel": "መሓላፊ ቃል",
+    "passwordPlaceholder": "መሓላፊ ቃልካ ኣእቱ",
+    "signIn": "እቶ",
+    "noAccount": "መለለዪ የብልካን?",
+    "registerHere": "ኣብዚ ተመዝገብ",
+    "welcomeBack": "እንቋዕ ብደሓን መጻእካ!",
+    "errors": {
+      "emailRequired": "ኢመይል ወይ ስም ተጠቃሚ የድሊ።",
+      "passwordRequired": "መሓላፊ ቃል የድሊ።",
+      "loginFailed": "ምእታው ኣይተኻኸለን። በጃኻ ደጊምካ ፈትን።",
+      "emailInvalid": "እቲ ዝተዓደመ ኢመይል ወይ ስም ተጠቃሚ ትኽክል ኣይኮነን።",
+      "passwordInvalid": "እቲ ዝተዓደመ መሓላፊ ቃል ትኽክል ኣይኮነን።"
+    }
+  },
+  "register": {
+    "title": "መለለዪ ፍጠር",
+    "subtitle": "ንምጥቃም ስርዓት ምጅማር ተመዝገብ",
+    "emailLabel": "ኢመይል",
+    "emailPlaceholder": "your@email.com",
+    "usernameLabel": "ስም ተጠቃሚ",
+    "usernamePlaceholder": "ስም ተጠቃሚ ምረጽ",
+    "employeeIdLabel": "መለለዪ ሰራሕተኛ (ID)",
+    "employeeIdPlaceholder": "ንኣብነት EMP001",
+    "passwordLabel": "መሓላፊ ቃል",
+    "passwordPlaceholder": "ብውሑዱ 6 ፊደላት",
+    "confirmLabel": "መሓላፊ ቃል ኣረጋግጽ",
+    "confirmPlaceholder": "መሓላፊ ቃልካ ደጋግም",
+    "haveAccount": "መለለዪ ኣለካ?",
+    "signIn": "እቶ",
+    "success": "መለለዪ ብትኽክል ተፈጢሩ!",
+    "failed": "ምዝገባ ኣይተኻኸለን። ሓበሬታኻ ኣረጋግጽ።",
+    "errors": {
+      "emailRequired": "ኢመይል የድሊ።",
+      "emailInvalid": "ቅኑዕ ኣድራሻ ኢመይል ኣእቱ።",
+      "usernameRequired": "ስም ተጠቃሚ የድሊ።",
+      "employeeIdRequired": "መለለዪ ሰራሕተኛ (ID) የድሊ።",
+      "passwordRequired": "መሓላፊ ቃል የድሊ።",
+      "passwordMin": "መሓላፊ ቃል ብውሑዱ 6 ፊደላት ክህልዎ ኣለዎ።",
+      "confirmRequired": "በጃኻ መሓላፊ ቃልካ ኣረጋግጽ።",
+      "confirmMismatch": "መሓላፊ ቃላት ኣይተሰማምዑን።"
+    }
+  },
+  "dashboard": {
+    "title": "ዳሽቦርድ",
+    "subtitle": "ናይ ሎሚ ኣኼባ ምጅማር ጽማቝ ርእይቶ",
+    "totalEmployees": "ጠቕላላ ሰራሕተኛታት",
+    "morningAttendance": "ናይ ንግሆ ምጅማር",
+    "afternoonAttendance": "ናይ ድሕሪ ቀትሪ ምጅማር",
+    "recentAttendances": "ናይ ቀረባ ግዜ ምጅማራት",
+    "loadFailed": "ናይ ዳሽቦርድ ሓበሬታ ምጽዓን ኣይተኻኸለን",
+    "table": {
+      "employee": "ሰራሕተኛ",
+      "department": "ክፍሊ",
+      "date": "ዕለት",
+      "session": "ክፋል ግዜ",
+      "time": "ሰዓት"
+    },
+    "empty": {
+      "title": "ክሳብ ሕጂ ምጅማራት የለን",
+      "description": "ሰራሕተኛታት ምጅማሮም ምስ ይመዝግቡ እዚኦም ኣብዚ ክረኸቡ እዮም።"
+    },
+    "session": { "morning": "ንግሆ", "afternoon": "ድሕሪ ቀትሪ" }
+  },
+  "employees": {
+    "title": "ሰራሕተኛታት",
+    "registeredCount_one": "{{count}} ሰራሕተኛ ተመዝጊቡ",
+    "registeredCount_other": "{{count}} ሰራሕተኛታት ተመዚጊቦም",
+    "addEmployee": "ሰራሕተኛ ወስኽ",
+    "registerEmployee": "ሰራሕተኛ ምዝገባ",
+    "searchPlaceholder": "ብስም፣ ብመለለዪ (ID) ወይ ብክፍሊ ድለይ...",
+    "table": {
+      "id": "መለለዪ (ID)",
+      "fullName": "ሙሉ ስም",
+      "division": "ክፍሊ",
+      "jobTitle": "ስራሕ",
+      "department": "መምሪሕ",
+      "phone": "ተለፎን",
+      "actions": "ተግባራት"
+    },
+    "edit": "ኣርትዕ",
+    "delete": "ስረዝ",
+    "empty": {
+      "noSearch": "ምስ ፍለጋኻ ዝሰማማዕ ሰራሕተኛ የለን",
+      "tryDifferent": "ብካልእ ቃል ፍለጋ ፈትን።",
+      "noEmployees": "ምንም ሰራሕተኛ ኣይተመዝገበን",
+      "registerFirst": "ንመጀመርታ ናይ መጀመርታ ሰራሕተኛኻ ምዝገብ።"
+    },
+    "deleteModal": {
+      "title": "ሰራሕተኛ ስረዝ",
+      "confirmBefore": "ውሱን ኢኻ",
+      "confirmAfter": "ን ምጽራይ ትደሊ? እዚ ስጉምቲ ክምለስ ኣይክእልን እዩ።"
+    },
+    "toasts": {
+      "deleted": "ሰራሕተኛ ብትኽክል ተሰሪዙ",
+      "deleteFailed": "ሰራሕተኛ ምጽራይ ኣይተኻኸለን",
+      "loadFailed": "ሰራሕተኛታት ምጽዓን ኣይተኻኸለን"
+    }
+  },
+  "employeeForm": {
+    "editTitle": "ሰራሕተኛ ኣርትዕ",
+    "registerTitle": "ሰራሕተኛ ምዝገባ",
+    "editSubtitle": "ሓበሬታ ሰራሕተኛ ኣዘምን",
+    "registerSubtitle": "ሓድሽ ሰራሕተኛ ናብ ስርዓት ወስኽ",
+    "employeeId": "መለለዪ ሰራሕተኛ (ID)",
+    "employeeIdPlaceholder": "ንኣብነት EMP001",
+    "fullName": "ሙሉ ስም",
+    "fullNamePlaceholder": "ሙሉ ስም ሰራሕተኛ",
+    "division": "ክፍሊ",
+    "divisionPlaceholder": "ንኣብነት Operations",
+    "jobTitle": "ስራሕ",
+    "jobTitlePlaceholder": "ንኣብነት Officer",
+    "department": "መምሪሕ",
+    "departmentPlaceholder": "ንኣብነት IT",
+    "phoneNumber": "ቁጽሪ ተለፎን",
+    "phoneNumberPlaceholder": "ንኣብነት +251-XXX-XXXX",
+    "errors": {
+      "employeeIdRequired": "መለለዪ ሰራሕተኛ (ID) የድሊ",
+      "fullNameRequired": "ሙሉ ስም የድሊ",
+      "divisionRequired": "ክፍሊ የድሊ",
+      "jobTitleRequired": "ስራሕ የድሊ",
+      "departmentRequired": "መምሪሕ የድሊ",
+      "phoneRequired": "ቁጽሪ ተለፎን የድሊ",
+      "phoneInvalid": "ቁጽሪ ተለፎን 10 ወይ 11 ኣሃዛት ክኸውን ኣለዎ"
+    },
+    "updateBtn": "ሰራሕተኛ ኣዘምን",
+    "registerBtn": "ሰራሕተኛ ምዝገባ",
+    "toasts": {
+      "notFound": "ሰራሕተኛ ኣይተረኸበን",
+      "loadFailed": "ሰራሕተኛ ምጽዓን ኣይተኻኸለን",
+      "updated": "ሰራሕተኛ ብትኽክል ተሓዲሱ",
+      "updateFailed": "ሰራሕተኛ ምሕዳስ ኣይተኻኸለን",
+      "registered": "ሰራሕተኛ ብትኽክል ተመዝጊቡ",
+      "registerFailed": "ሰራሕተኛ ምዝገባ ኣይተኻኸለን"
+    }
+  },
+  "reports": {
+    "title": "ሪፖርታትን ምውጻእን",
+    "subtitle": "ሓበሬታ ምጅማር በቲ እትመርጾ ቅርጺ ኣውጽእ",
+    "formats": {
+      "csv": "CSV",
+      "csvDesc": "ብነጠብጣብ ሰረዝ ዝተፈልዩ እሴታት (.csv)",
+      "excel": "Excel",
+      "excelDesc": "Microsoft Excel (.xlsx)",
+      "pdf": "PDF",
+      "pdfDesc": "ቅርጺ ሰነድ Portable (.pdf)"
+    },
+    "settingsTitle": "ቅጥዕታት ምውጻእ",
+    "formatLabel": "ቅርጺ ምውጻእ",
+    "infoText": "እቲ ሪፖርት ኩሉ መዝገባት ምጅማር ምስ ዝርዝራት ሰራሕተኛ፣ ዕለታት ኣኼባ፣ ክፋላት ግዜን ግዜ ምጅማርን ይሕዝ።",
+    "download": "ሪፖርት ኣውርድ",
+    "toasts": {
+      "downloaded": "ሪፖርት ብትኽክል ወሪዱ",
+      "exportFailed": "ሪፖርት ምውጻእ ኣይተኻኸለን"
+    }
+  },
+  "users": {
+    "title": "ኣመሓዳሪ ተጠቀምቲ",
+    "registeredCount_one": "{{count}} ተጠቃሚ ተመዝጊቡ",
+    "registeredCount_other": "{{count}} ተጠቀምቲ ተመዚጊቦም",
+    "assignRole": "ሚና ምድብ",
+    "changeRole": "ሚና ምቕያር",
+    "removeRole": "ሚና ምጥፋእ",
+    "resetPassword": "መሓላፊ ቃል ምልላይ",
+    "noEmail": "ኢመይል የለን",
+    "lockedUntil": "ክሳብ {{date}} ተዓጽዩ",
+    "empty": {
+      "title": "ተጠቃሚ ኣይተረኸበን",
+      "description": "ተጠቀምቲ ምስ ይመዝገቡ እዚኦም ኣብዚ ክረኸቡ እዮም።"
+    },
+    "modal": {
+      "assignTitle": "ሚና ምድብ",
+      "changeTitle": "ሚና ምቕያር",
+      "removeTitle": "ሚና ምጥፋእ",
+      "assignText": "ሓድሽ ሚና ን{{name}} ውድብ",
+      "changeText": "ሚና ን{{name}} ቀይር",
+      "removeText": "ሚና ካብ {{name}} ኣጥፍእ"
+    },
+    "roleName": "ስም ሚና",
+    "roleNamePlaceholder": "ንኣብነት Admin, Manager",
+    "newRole": "ሓድሽ ሚና",
+    "newRolePlaceholder": "ንኣብነት Admin",
+    "assignBtn": "ውድብ",
+    "changeBtn": "ቀይር",
+    "removeBtn": "ኣጥፍእ",
+    "passwordModal": {
+      "title": "መሓላፊ ቃል ምልላይ",
+      "forUser": "መሓላፊ ቃል ምልላይ ን",
+      "hint": "እቲ ተጠቃሚ ንምእታው ነዚ ሓድሽ መሓላፊ ቃል ክጥቀም ይደልዮ።"
+    },
+    "newPassword": "ሓድሽ መሓላፊ ቃል",
+    "newPasswordPlaceholder": "ሓድሽ መሓላፊ ቃል ኣእቱ",
+    "resetBtn": "መሓላፊ ቃል ምልላይ",
+    "deleteModal": {
+      "title": "ተጠቃሚ ስረዝ",
+      "confirmBefore": "ውሱን ኢኻ",
+      "confirmAfter": "ን ምጽራይ ትደሊ? እዚ ስጉምቲ ክምለስ ኣይክእልን እዩ።"
+    },
+    "deleteUserBtn": "ተጠቃሚ ስረዝ",
+    "toasts": {
+      "loadFailed": "ተጠቀምቲ ምጽዓን ኣይተኻኸለን",
+      "roleUpdated": "ሚና ብትኽክል ተሓዲሱ",
+      "roleUpdateFailed": "ሚና ምሕዳስ ኣይተኻኸለን",
+      "passwordReset": "መሓላፊ ቃል ብትኽክል ተለዪሉ",
+      "passwordResetFailed": "መሓላፊ ቃል ምልላይ ኣይተኻኸለን",
+      "userDeleted": "ተጠቃሚ ብትኽክል ተሰሪዙ",
+      "deleteFailed": "ተጠቃሚ ምጽራይ ኣይተኻኸለን"
+    }
+  },
+  "attendance": {
+    "title": "ምጅማር ምዝገባ",
+    "subtitle": "ምጅማር ኣኼባኻ ምዝገብ",
+    "noEmployee": {
+      "title": "ምንም ሰራሕተኛ ኣይተራኸበን",
+      "description": "መለለይኻ ምስ መዝገብ ሰራሕተኛ ኣይተራኸበን። በጃኻ ኣስተዳዳሪ ርኸብ።"
+    },
+    "identityTitle": "መንነትካ",
+    "employeeId": "መለለዪ ሰራሕተኛ (ID)",
+    "sessionOptional": "ክፋል ግዜ (ኣማራጺ)",
+    "sessionAutoDetect": "ብግዜ ባዕሉ ይፍለጥ",
+    "sessionMorning": "ክፋል ግዜ ንግሆ",
+    "sessionAfternoon": "ክፋል ግዜ ድሕሪ ቀትሪ",
+    "checking": "ኩነታት ምጅማርካ ይምርመር ኣሎ...",
+    "statusTitle": "ኩነታት ምጅማር",
+    "awaitingCheck": "ምርመራ ይጽበ ኣሎ",
+    "id": "መለለዪ (ID): {{id}}",
+    "division": "ክፍሊ",
+    "jobTitle": "ስራሕ",
+    "department": "መምሪሕ",
+    "phone": "ተለፎን",
+    "alreadyAttended": "ቀደም ተጸኒሑ",
+    "notYetAttended": "ገና ኣይተጸንሐን",
+    "recordAttendance": "ምጅማር ምዝገብ",
+    "attendanceCompleted": "ምጅማር ተዛዚሙ",
+    "checkingStatus": "ኩነታትካ ይምርመር ኣሎ...",
+    "checkingStatusDesc": "ኩነታት ምጅማርካ ክንምርምር በጃኻ ጸበ።",
+    "toasts": {
+      "recordedFor": "ምጅማር ን{{name}} ተመዝጊቡ",
+      "takeFailed": "ምጅማር ምዝገባ ኣይተኻኸለን"
+    },
+    "errors": {
+      "noEmployeeFound": "ምስ መለለዪ \"{{id}}\" ዝህልዎ ሰራሕተኛ ኣይተረኸበን።",
+      "checkFailed": "ሰራሕተኛ ምርመራ ኣይተኻኸለን። በጃኻ ደጊምካ ፈትን።"
+    }
+  },
+  "profile": {
+    "title": "መግለጺ ባዕለይ",
+    "subtitle": "መለለይኻን ስእሊ መግለጺኻን ኣመሓድር",
+    "pictureTitle": "ስእሊ መግለጺ",
+    "pictureIntro": "ስእሊ መግለጺኻ ኣብ ኩሉ መተግበሪ ይርአ እዩ። ኣብ ታሕቲ ክትቀይሮ ወይ ክትስርዞ ትኽእል።",
+    "pictureIntroNone": "ክሳብ ሕጂ ስእሊ መግለጺ የብልካን። ኣብ ሳይድባር፣ ገጽ መግለጺን ዝርዝር ተጠቀምትን ንምርኣዩ ሓደ ስቀል።",
+    "chooseNewPicture": "ሓድሽ ስእሊ ምረጽ",
+    "choosePicture": "ስእሊ ምረጽ",
+    "removePicture": "ስእሊ ኣጥፍእ",
+    "unknownType": "ዘይተፈልጠ ዓይነት",
+    "allowedTypes": "ዝተፈቐደ: JPG, JPEG, PNG, WEBP · ዝለዓለ መጠን: 5 MB",
+    "accountDetails": "ዝርዝራት መለለዪ",
+    "username": "ስም ተጠቃሚ",
+    "email": "ኢመይል",
+    "employee": "ሰራሕተኛ",
+    "role": "ሚና",
+    "toasts": {
+      "updated": "ስእሊ መግለጺ ተሓዲሱ",
+      "uploaded": "ስእሊ መግለጺ ተሰቒሉ",
+      "uploadFailed": "ስእሊ መግለጺ ምስቓል ኣይተኻኸለን።",
+      "removed": "ስእሊ መግለጺ ተጠፊኡ",
+      "removeFailed": "ስእሊ መግለጺ ምጥፋእ ኣይተኻኸለን።"
+    }
+  },
+  "cropper": {
+    "loadError": "ነዚ ስእሊ ንምሕታት ምጽዓን ኣይተኻኸለን። ካልእ ፋይል ፈትን።",
+    "sizeHint": "ካሬ ምቝራጽ · ከም {{size}} × {{size}} ይቕመጥ",
+    "zoom": "ምዕባይ",
+    "zoomOut": "ኣንስሕ",
+    "zoomIn": "ዓብይ",
+    "zoomLevel": "ደረጃ ምዕባይ",
+    "dragHint": "ንምምዕርራይ ቦታኡ ስእሊ ጐትት",
+    "usePhoto": "ነዚ ስእሊ ተጠቀም",
+    "previewLabel": "ቅድመ ርእይቶ ምቝራጽ — ንምንቅስቓስ ጐትት፣ ንምዕባይ ስከርከር ወይ ስላይደር ተጠቀም",
+    "previewAlt": "ቅድመ ርእይቶ ምቝራጽ"
+  },
+  "qr": {
+    "title": "ኣብ ሞባይልካ ንምኽፋት ስካን ግበር",
+    "description": "ነዚ መተግበሪ ኣብ መሳርሕኻ ንምኽፋት ካሜራኻ ናብ ኮድ QR ጠቕም።",
+    "copyUrl": "URL ቅዳሕ",
+    "copied": "URL ናብ ክሊፕቦርድ ተቐዲሑ",
+    "urlLabel": "URL መተግበሪ"
+  },
+  "errors": {
+    "network": "ስሕተት ኔትዎርክ። ግንኙነትካ ኣረጋግጽ እሞ ደጊምካ ፈትን።",
+    "validationFailed": "ምርግጋጽ ኣይተኻኸለን።",
+    "invalidFields": "ሓደ ወይ ካብኡ ንላዕሊ መስኮታት ቅኑዓት ኣይኮኑን።",
+    "badRequest": "ዘይቅኑዕ ሕቶ። እቲ ዝኣተኻዮ ኣረጋግጽ።",
+    "invalidCredentials": "ዘይቅኑዕ መረጋገጺ ናይ ምእታው።",
+    "forbidden": "ነዚ ተግባር ንምግባር ፍቓድ የብልካን።",
+    "serverError": "ስሕተት ሰርቨር። በጃኻ ደሓር ደጊምካ ፈትን።",
+    "unexpected": "ዘይተጸበዮ ስሕተት ኣጋጠመ።",
+    "checkCredentials": "በጃኻ ናይ ምእታው መረጋገጺኻ ኣረጋግጽ።"
+  }
+}
