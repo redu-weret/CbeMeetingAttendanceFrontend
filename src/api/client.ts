@@ -1,6 +1,8 @@
 import axios from 'axios';
 import { mockHandler } from './mockHandler';
 import { fileToDataUrl } from './mockData';
+import { encryptPayload, invalidatePublicKeyCache, isEncryptionAvailable } from './encryption';
+import type { ApiResponse, AuthResponse } from '../types';
 
 const apiClient = axios.create({
   baseURL: '/api',
@@ -11,13 +13,17 @@ const apiClient = axios.create({
 });
 
 // ===== Mock mode =====
-// The app starts in mock mode so it works standalone without a backend.
-// To switch to a real backend: open DevTools and run:
-//   localStorage.setItem('use_mock', 'false')
-// To switch back to mock mode:
+// The app connects to the real backend by default, so request payloads are
+// encrypted out of the box. Demo mode is opt-in: open DevTools and run
 //   localStorage.setItem('use_mock', 'true')
+// to use the standalone in-browser demo (in demo mode requests are NOT
+// encrypted because there is no backend to exchange keys with).
 
-let mockMode = localStorage.getItem('use_mock') !== 'false';
+let mockMode = localStorage.getItem('use_mock') === 'true';
+
+// Request configs that already carry an encrypted envelope (prevents double
+// encryption when a request is retried, e.g. after a 401 token refresh).
+const encryptedConfigs = new WeakSet<object>();
 
 // ===== Request interceptor: attach auth token =====
 apiClient.interceptors.request.use(
@@ -48,6 +54,43 @@ apiClient.interceptors.request.use(
             size: file.size,
             type: file.type,
           };
+        }
+      }
+    }
+
+    // ===== Application-level payload encryption (hybrid AES-GCM + RSA-OAEP) =====
+    // JSON request bodies are encrypted before they leave the browser. Multipart
+    // uploads (FormData), body-less requests, mock mode (no real backend to fetch
+    // a public key from) and the public-key endpoint itself are left untouched.
+    // Encrypting again a request that was already encrypted (e.g. a 401-retry) is
+    // prevented via the _encrypted flag. Backend responses are NOT encrypted.
+    if (
+      !mockMode &&
+      !encryptedConfigs.has(config) &&
+      config.data !== undefined &&
+      config.data !== null &&
+      !(config.data instanceof FormData)
+    ) {
+      const method = (config.method || 'get').toLowerCase();
+      const hasBody = ['post', 'put', 'patch'].includes(method);
+
+      if (hasBody && typeof config.data === 'object') {
+        if (!isEncryptionAvailable()) {
+          // Web Crypto requires a secure context (HTTPS or localhost). When it is
+          // missing we must not silently degrade to plaintext — warn once so it is
+          // obvious in DevTools that payload encryption is NOT active.
+          warnEncryptionUnavailableOnce();
+        } else {
+          try {
+            const envelope = await encryptPayload(config.data);
+            config.data = envelope;
+            config.headers['X-Encrypted-Payload'] = 'true';
+            encryptedConfigs.add(config);
+          } catch (err) {
+            // Never silently send plaintext when encryption was requested.
+            console.warn('[encryption] Request payload encryption failed:', err);
+            return Promise.reject(err);
+          }
         }
       }
     }
@@ -84,6 +127,16 @@ apiClient.interceptors.response.use(
       if (result) return result;
     }
 
+    // Key-rotation safety net: if the backend rejected an encrypted payload, the
+    // cached public key may be stale — drop it so the next request refetches.
+    if (error.response?.status === 400) {
+      const msg =
+        (error.response.data as { message?: string } | undefined)?.message ?? '';
+      if (/encrypted|decrypt/i.test(msg)) {
+        invalidatePublicKeyCache();
+      }
+    }
+
     const originalRequest = error.config;
     if (!originalRequest) return Promise.reject(error);
 
@@ -110,7 +163,11 @@ apiClient.interceptors.response.use(
         const refreshToken = localStorage.getItem('refresh_token');
         if (!refreshToken) throw new Error('No refresh token available');
 
-        const { data } = await axios.post('/api/users/refresh', { refreshToken });
+        // Route the refresh call through apiClient so it is encrypted like any
+        // other JSON payload (bare axios would bypass the request interceptor).
+        const { data } = await apiClient.post<ApiResponse<AuthResponse>>('/users/refresh', {
+          refreshToken,
+        });
 
         if (data.success && data.data) {
           const newToken = data.data.token;
@@ -148,6 +205,17 @@ apiClient.interceptors.response.use(
  */
 export function isMockMode(): boolean {
   return mockMode;
+}
+
+let warnedEncryptionUnavailable = false;
+
+function warnEncryptionUnavailableOnce(): void {
+  if (warnedEncryptionUnavailable) return;
+  warnedEncryptionUnavailable = true;
+  console.warn(
+    '[encryption] Web Crypto is not available in this context (needs HTTPS or localhost). ' +
+      'Request payloads are NOT being encrypted.'
+  );
 }
 
 export default apiClient;

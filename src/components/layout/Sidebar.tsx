@@ -21,7 +21,6 @@ import {
   LogOut,
   Menu,
   X,
-  Building2,
   ChevronRight,
   KeyRound,
   Eye,
@@ -164,8 +163,8 @@ export function Sidebar() {
       >
         {/* Logo */}
         <div className="flex h-16 items-center gap-3 px-6 border-b border-gray-100 bg-blue-700">
-          <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/20">
-            <Building2 className="h-5 w-5 text-white" />
+          <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-white overflow-hidden shrink-0">
+            <img src="/cbe-logo.png" alt="CBE" className="h-9 w-9 object-contain" />
           </div>
           <div>
             <h1 className="text-sm font-bold text-white tracking-tight">CBE</h1>

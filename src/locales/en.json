@@ -2,6 +2,7 @@
   "app": { "name": "CBE Meeting Attendance", "tagline": "Meeting Attendance" },
   "common": { "cancel": "Cancel", "close": "Close", "loading": "Loading...", "user": "User" },
   "language": { "label": "Language" },
+  "demoMode": { "title": "Demo Mode", "description": "Running without the backend \u2014 request payloads are NOT encrypted." },
   "nav": {
     "dashboard": "Dashboard",
     "takeAttendance": "Take Attendance",
@@ -333,7 +334,17 @@
     "description": "Point your phone camera at the QR code to open this app on your device.",
     "copyUrl": "Copy URL",
     "copied": "URL copied to clipboard",
-    "urlLabel": "App URL"
+    "urlLabel": "App URL",
+    "localhostWarning": "Your phone can't open \"localhost\". Connect the phone to the same Wi-Fi or the PC's mobile hotspot, make sure this PC allows inbound connections on its port, then re-scan.",
+    "failedTitle": "Couldn't find a phone-accessible address",
+    "failedBody": "Your phone can't open \"localhost\". Put the phone on the same Wi-Fi or the PC's mobile hotspot, allow inbound connections on this port in Windows Firewall, then try again — or type this PC's address below.",
+    "retry": "Try again",
+    "manualTitle": "Or type this PC's network address",
+    "manualPlaceholder": "e.g. 192.168.1.6",
+    "manualApply": "Show QR",
+    "manualInvalid": "Enter a valid IPv4 address (e.g. 192.168.1.6) or an http(s) URL.",
+    "manualClear": "Remove",
+    "selectHint": "Which network is your phone on? Pick the matching address:"
   },
   "errors": {
     "network": "Network error. Please check your connection and try again.",

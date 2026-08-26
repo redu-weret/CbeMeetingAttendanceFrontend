@@ -8,7 +8,8 @@ import { Input } from '../../components/ui/Input';
 import { useToast } from '../../components/ui/Toast';
 import { useApiError } from '../../hooks/useApiError';
 import { LanguageSelector } from '../../i18n/LanguageSelector';
-import { Building2, Mail, User, Lock, IdCard, Eye, EyeOff, AlertCircle } from 'lucide-react';
+import { DemoModeBanner } from '../../components/ui/DemoModeBanner';
+import { Mail, User, Lock, IdCard, Eye, EyeOff, AlertCircle } from 'lucide-react';
 
 interface FormState {
   email: string;
@@ -118,6 +119,7 @@ export default function Register() {
 
   return (
     <div className="min-h-screen relative flex flex-col items-center justify-center bg-gradient-to-br from-blue-50 via-white to-blue-50 px-4 py-8">
+      <DemoModeBanner />
       {/* Language selector */}
       <div className="absolute top-4 right-4 w-40 sm:w-44">
         <LanguageSelector ariaLabel={t('language.label')} />
@@ -127,8 +129,8 @@ export default function Register() {
         {/* Logo */}
         <div className="text-center mb-8">
           <div className="inline-flex items-center justify-center gap-3 mb-4">
-            <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-700 shadow-lg shadow-blue-200">
-              <Building2 className="h-7 w-7 text-white" />
+            <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-white border border-gray-200 shadow-lg shadow-blue-100 overflow-hidden">
+              <img src="/cbe-logo.png" alt="CBE" className="h-14 w-14 object-contain" />
             </div>
           </div>
           <h1 className="text-2xl font-bold text-gray-900">{t('register.title')}</h1>

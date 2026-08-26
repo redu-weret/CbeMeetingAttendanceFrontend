@@ -2,6 +2,7 @@
   "app": { "name": "CBE Hirmaannaa Walga'ii", "tagline": "Hirmaannaa Walga'ii" },
   "common": { "cancel": "Haqi", "close": "Cufi", "loading": "Fe'irama jira...", "user": "Fayyadamaa" },
   "language": { "label": "Afaan" },
+  "demoMode": { "title": "Haala Fakkeessaa", "description": "Backend malee hojiira jira — dhimmoota gaaffii hin icciitamne." },
   "nav": {
     "dashboard": "Daashboordii",
     "takeAttendance": "Hirmaannaa Galmeessi",
@@ -333,7 +334,17 @@
     "description": "App kana mobayilaa kee irratti banuuf kaameeraa kee gara koodii QR qajeelchi.",
     "copyUrl": "URL Galmeessi",
     "copied": "URL gara clipboard galmeeffameera",
-    "urlLabel": "URL App"
+    "urlLabel": "URL App",
+    "localhostWarning": "Mobayilaan kee \"localhost\" baneessuu hin danda'u. Mobayilaa kee Wi-Fi walfakkaataa ykn hotspot mobayilaa PC wajjin qindeessi, akkasumas PC'n qunnamtii port isaa irratti fudhachuu akka danda'u godhi, ergasii deebi'itii skaan godhi.",
+    "failedTitle": "Teessoo mobayilaan fayyadamuu danda'u argachuu hin dandeenye",
+    "failedBody": "Mobayilaan kee \"localhost\" banuu hin danda'u. Mobayilaa kee Wi-Fi walfakkaataa ykn hotspot PC wajjin qindeessi, Firewall Windows keessatti qunnamtii port kana irratti hayyamii, ergasii deebi'itii yaali — ykn teessoo PC kanaa gaditti galchi.",
+    "retry": "Deebi'itii yaali",
+    "manualTitle": "Ykn teessoo network PC kanaa galchi",
+    "manualPlaceholder": "fkn. 192.168.1.6",
+    "manualApply": "QR argisiisi",
+    "manualInvalid": "Teessoo IPv4 sirrii (fkn. 192.168.1.6) ykn URL http(s) galchi.",
+    "manualClear": "Balleessi",
+    "selectHint": "Mobayilaan kee network kami irra jira? Ateessa walsimu filadhu:"
   },
   "errors": {
     "network": "Dogoggora network. Maaloo qunnamtii kee mirkaneessiitii irra deebi'ii yaali.",
